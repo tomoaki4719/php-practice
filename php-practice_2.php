@@ -1,5 +1,6 @@
 <?php
 // Q1 tic-tac問題
+
 echo "1から100までのカウントを開始します\n\n";
 
 for ($i = 1; $i <= 100; $i++) {
@@ -15,6 +16,7 @@ for ($i = 1; $i <= 100; $i++) {
 }
 
 // Q2 多次元連想配列
+
 $personalInfos = [
   [
       'name' => 'Aさん',
@@ -55,10 +57,12 @@ foreach ($personalInfos as $index => $info) {
 var_dump($personalInfos);
 
 // Q3 オブジェクト-1
+
 $student = new Student(120, '山田');
 echo "学籍番号{$student->studentId}番の生徒は{$student->studentName}です。";
 
 // Q4 オブジェクト-2
+
 class Student
 {
     public $studentId;
@@ -81,6 +85,7 @@ $yamada->attend('PHP');
 
 
 // Q5 定義済みクラス
+
 //問題1
 $dt = new DateTime();
 $dt->modify('-1 month');
