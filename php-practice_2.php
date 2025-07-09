@@ -98,3 +98,4 @@ $interval = $today->diff($pastDate);
 $days = $interval->days;
 echo "あの日から{$days}日経過しました。";
 ?>
+
